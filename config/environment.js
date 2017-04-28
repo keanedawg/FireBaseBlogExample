@@ -6,10 +6,10 @@ module.exports = function(environment) {
     podModulePrefix: 'example1/features',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://testemberfire.firebaseio.com/',
-	torii: {
-		sessionServiceName: 'session'
-	},
+    firebase: 'https://erik-auth.firebaseio.com/',
+	  torii: {
+		  sessionServiceName: 'session'
+	  },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

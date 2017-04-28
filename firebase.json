@@ -1,10 +1,10 @@
 {
-  "firebase": "testemberfire",
+  "firebase": "erik-auth",
   "public": "dist",
-    "rewrites": [{
-	    "source": "**",
-	    "destination": "/index.html"
-	  }],
+  "rewrites": [{
+        "source": "**",
+        "destination": "/index.html"
+      }],
   "ignore": [
     "firebase.json",
     "**/.*",
