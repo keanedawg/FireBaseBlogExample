@@ -6,7 +6,11 @@ module.exports = function(environment) {
     podModulePrefix: 'example1/features',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://erik-auth.firebaseio.com/',
+    firebase: {
+      apiKey: " AIzaSyCHrnmVtfA9JZ5xTHzqGnFNnbTZdKGDo0Q",
+      authDomain: "erik-auth.firebaseapp.com",
+      databaseURL: "https://erik-auth.firebaseio.com"
+    },
 	  torii: {
 		  sessionServiceName: 'session'
 	  },
